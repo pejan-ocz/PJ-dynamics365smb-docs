@@ -21,8 +21,8 @@ jobs:
       # Runs a set of commands using the runners shell
     - name: Update Upstream
       run: |
-          echo Update from UpStream 
-          git fetch upstream 
-          git merge upstream/main
+        echo Update from UpStream, 
+        git fetch upstream, 
+        git merge upstream/main.
 
           
