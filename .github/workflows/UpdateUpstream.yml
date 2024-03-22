@@ -22,7 +22,8 @@ jobs:
     - name: Update Upstream
       run: |
         echo Update from UpStream, 
-        git fetch upstream, 
-        git merge upstream/main.
+        echo Update2 from UpStream.
+        # git fetch upstream, 
+        # git merge upstream/main.
 
           
